@@ -1,0 +1,11 @@
+**    COPY    START    5000
+**    LDA     HASH
+**    STA     CSIT
+**    RESB    1
+**    LDCH    LET
+**    STCH    ST
+ST    RESW    1
+LET   WORD    5
+CSIT  BYTE    C'EOF'
+HASH  RESB    5
+**    END    **
